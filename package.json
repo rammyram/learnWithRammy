@@ -1,0 +1,18 @@
+{
+  "name": "bhargav",
+  "version": "1.0.0",
+  "description": "Bhargav's CV",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CV"
+  ],
+  "author": "bhargav vadlamudi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
