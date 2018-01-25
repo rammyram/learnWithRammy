@@ -5,7 +5,7 @@ body {
   color: #545E6C;
   background: #f5f5f5;
   font-size: 14px;
-  padding: 30px;
+  padding: 13px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -248,7 +248,7 @@ p {
     width: inherit;
   }
   .main-wrapper {
-    padding: 30px;
+    padding: 13px;
   }
   .main-wrapper .time {
     position: static;
@@ -258,6 +258,12 @@ p {
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+  
+  iframe{
+  height: 500px ; 
+  width: 100% ; 
+
+}
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -275,4 +281,18 @@ p {
     position: relative;
     top: 1px;
   }
+  
+  iframe{
+  height: 600px ; 
+  width: 100% ; 
+
+}
+}
+
+
+
+
+.linkedin-frame{
+  padding: 4px ;
+  border: 0.3px solid lightgrey;
 }
